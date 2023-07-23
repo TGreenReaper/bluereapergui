@@ -14,7 +14,6 @@ local TextButton = Instance.new("TextButton")
 --Properties:
 
 HUI.Name = "HUI"
-HUI.Draggable = true
 HUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 HUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -80,19 +79,19 @@ TextButton.TextSize = 16.000
 
 -- Scripts:
 
-local function PBHHFJK_fake_script() -- MAIN.PLACE 
+local function THCE_fake_script() -- MAIN.PLACE 
 	local script = Instance.new('LocalScript', MAIN)
 
 	if game.PlaceId == 2753915549 then
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
 	end
 end
-coroutine.wrap(PBHHFJK_fake_script)()
-local function GQDNKVS_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(THCE_fake_script)()
+local function KIBVS_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Up:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
 	end)
 end
-coroutine.wrap(GQDNKVS_fake_script)()
+coroutine.wrap(KIBVS_fake_script)()
